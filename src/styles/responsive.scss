@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+  .showcase {
+    padding-bottom: 0;
+  }
+  .showcase .showcase_flex .showcase_image {
+    display: none;
+  }
+  .showcase .showcase_flex .showcase_text {
+    margin: 4rem 5rem 0rem 5rem;
+  }
+
+  .about .about_flex {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .about .about_flex .about_image {
+    width: 600px;
+  }
+  .about .about_flex .about_content {
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+  .about .about_flex .about_content p {
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+    line-height: 1.4rem;
+  }
+
+  .service .service_flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .service .service_flex .service_card {
+    max-width: 350px;
+    margin-right: 0;
+  }
+
+  .project .project_container .sample {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .project .project_container .sample .sample_image {
+    width: 600px;
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+  }
+  .project .project_container .sample .sample_text {
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+  }
+  .project .project_container .sample:nth-child(2) .sample_image {
+    order: revert;
+  }
+  .project .project_container .sample .sample_text p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .project .project_container .sample .sample_image {
+    width: 400px;
+  }
+  .project .project_container .sample .sample_text {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .contact .form-box .form-container .form .control-flex {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contact .form-box .form-container .form {
+    padding: 20px 0;
+  }
+
+  .about .about_flex .about_image {
+    width: 400px;
+  }
+
+  .showcase .showcase_flex .showcase_text {
+    margin: 4rem 2rem 0rem 2rem;
+  }
+
+  .showcase .semi {
+    bottom: -150px;
+  }
+
+  .project .project_container {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .head_und {
+    font-size: 44px;
+  }
+  .head_und::after {
+    bottom: -1px;
+  }
+  .service .head_und::after,
+  .about .head_und::after,
+  .project .head_und::after,
+  .contact .head_und::after {
+    transform: translateX(-60%);
+  }
+
+  .project .project_container .sample .sample_text .sample_btns .primary_btn {
+    margin-bottom: 1rem;
+  }
+
+  .project .project_container .sample {
+    width: 95%;
+    margin: auto;
+  }
+  .project .project_container .sample .sample_image {
+    width: 300px;
+  }
+}

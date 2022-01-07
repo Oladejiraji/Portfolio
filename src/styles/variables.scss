@@ -1,0 +1,23 @@
+$glass_background: rgba(255, 255, 255, 0.21);
+$primary_background: #e3e8f5;
+$btn_primary_background: #8092bf;
+$color_1: #a0b6ef;
+$text_color: #686e80;
+
+/* Neutral Theme */
+html[data-theme="neutral"] {
+  --glass_background: rgba(255, 255, 255, 0.21);
+  --primary_background: #e3e8f5;
+  --btn_primary_background: #8092bf;
+  --color_1: #a0b6ef;
+  --text_color: #686e80;
+}
+
+/* Red Theme */
+html[data-theme="red"] {
+  --glass_background: rgba(255, 255, 255, 0.21);
+  --primary_background: #eec2c2;
+  --btn_primary_background: #ff7aae;
+  --color_1: #b24d71;
+  --text_color: #686e80;
+}
