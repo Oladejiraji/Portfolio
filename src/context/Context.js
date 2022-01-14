@@ -8,13 +8,14 @@ export const useAppContext = () => {
 
 const Context = ({ children }) => {
   // States
-  const currTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(currTheme ? currTheme : "red");
+  // const currTheme = localStorage.getItem("theme");
+  // const [theme, setTheme] = useState(currTheme ? currTheme : "red");
+  const [theme, setTheme] = useState("neutral");
 
   // Function to toggle the theme
   const toggleTheme = (value) => {
-    console.log(value);
-    localStorage.setItem("theme", value);
+    // console.log(value);
+    // localStorage.setItem("theme", value);
     document.getElementsByTagName("HTML")[0].setAttribute("data-theme", value);
     setTheme(value);
   };

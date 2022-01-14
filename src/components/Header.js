@@ -4,16 +4,19 @@ import { useAppContext } from "../context/Context";
 const Header = () => {
   const { theme, toggleTheme } = useAppContext();
   useEffect(() => {
-    let storedTheme = localStorage.getItem("theme");
-    if (storedTheme) {
-      document
-        .getElementsByTagName("HTML")[0]
-        .setAttribute("data-theme", storedTheme);
-    } else {
-      document
-        .getElementsByTagName("HTML")[0]
-        .setAttribute("data-theme", "red");
-    }
+    // let storedTheme = localStorage.getItem("theme");
+    // if (storedTheme) {
+    //   document
+    //     .getElementsByTagName("HTML")[0]
+    //     .setAttribute("data-theme", storedTheme);
+    // } else {
+    //   document
+    //     .getElementsByTagName("HTML")[0]
+    //     .setAttribute("data-theme", "red");
+    // }
+    document
+    .getElementsByTagName("HTML")[0]
+    .setAttribute("data-theme", "neutral");
   }, []);
   return (
     <div className="header">
