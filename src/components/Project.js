@@ -76,9 +76,9 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="sample_all">
+          {/* <div className="sample_all">
             <button className="secondary_btn">View All Projects</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
