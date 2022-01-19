@@ -13,7 +13,7 @@
     flex-direction: column;
     text-align: center;
     width: 90%;
-    margin: auto;
+    margin: 3rem auto 0;
   }
   .about .about_flex .about_image {
     width: 600px;
@@ -58,7 +58,8 @@
     margin: auto;
     padding: 0;
   }
-  .project .project_container .sample:nth-child(2) .sample_image {
+  .project .project_container .sample:nth-child(2) .sample_image,
+  .project .project_container .sample:nth-child(4) .sample_image {
     order: revert;
   }
   .project .project_container .sample .sample_text p {

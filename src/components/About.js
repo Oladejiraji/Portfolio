@@ -5,23 +5,32 @@ const About = () => {
   return (
     <div className="about">
       <div className="container">
-        <h1 className="head_und hidden">About Me</h1>
+        <h1 className="head_und">About Me</h1>
         <div className="about_flex">
-          <div className="about_image hidden">
-            <StaticImage
+          <div
+            className="about_image"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            {/* <StaticImage
               src="../images/about.png"
               placeholder="blurred"
               alt="hero"
-            />
+            /> */}
+            <div className="about_img"></div>
           </div>
-          <div className="about_content hidden">
+          <div
+            className="about_content"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
             <p>
-              I am Bello Ololade, A web designer from Nigeria. I’ve got the
-              right skills and technologies to take your online presence on the
-              level it truly deserves. I design and develop beautiful websites
-              which focus on providing the best experience for everyone using
-              them, ensuring they are easy for your team to edit while also
-              delivering the best experience for your users.
+              I am Raji Oladeji, A web designer from Nigeria. I’ve got the right
+              skills and technologies to take your online presence on the level
+              it truly deserves. I design and develop beautiful websites which
+              focus on providing the best experience for everyone using them,
+              ensuring they are easy for your team to edit while also delivering
+              the best experience for your users.
             </p>
             <p>
               I believe your website should be your no1 sales agent and its

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import {
   Header,
   Showcase,
@@ -15,11 +15,20 @@ import "../styles/responsive.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Context from "../context/Context";
+import AOS from "aos";
+// import aos styles
+import "aos/dist/aos.css";
 
 const Index = () => {
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef(null);
   // Use Effect
+  useEffect(() => {
+    // here you can add your aos options
+    AOS.init({
+      offset: 100,
+    });
+  }, []);
   return (
     <Context>
       <main className="frame" ref={ref}>

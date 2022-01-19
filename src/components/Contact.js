@@ -5,14 +5,14 @@ const Contact = () => {
     <div className="contact">
       <div className="container">
         <h1 className="head_und">Contact Us</h1>
-        <div className="form-box">
+        <div className="form-box" data-aos="fade-down" data-aos-delay="400">
           <div className="form-square" data-ani="0"></div>
           <div className="form-square" data-ani="1"></div>
           <div className="form-square" data-ani="2"></div>
           <div className="form-square" data-ani="3"></div>
           <div className="form-square" data-ani="4"></div>
           <div className="form-container">
-            <div className="form  hidden">
+            <div className="form">
               <form>
                 <div className="control-flex">
                   <div className="control">

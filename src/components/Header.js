@@ -15,17 +15,17 @@ const Header = () => {
     //     .setAttribute("data-theme", "red");
     // }
     document
-    .getElementsByTagName("HTML")[0]
-    .setAttribute("data-theme", "neutral");
+      .getElementsByTagName("HTML")[0]
+      .setAttribute("data-theme", "neutral");
   }, []);
   return (
-    <div className="header">
+    <div className="header" data-aos="fade-down" data-aos-delay="400">
       <div className="header_glass">
         <div className="header_wrap">
           <div className="container">
             <div className="header_flex">
-              <div className="title hidden">Ololade</div>
-              <div className="theme hidden">
+              <div className="title">Oladeji</div>
+              <div className="theme">
                 <div
                   className={
                     theme === "neutral" ? "active_box boxes box1" : "boxes box1"

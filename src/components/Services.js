@@ -7,7 +7,11 @@ const Service = () => {
       <div className="container">
         <h1 className="head_und special">Services</h1>
         <div className="service_flex">
-          <div className="service_card hidden">
+          <div
+            className="service_card"
+            data-aos="fade-down"
+            data-aos-delay="400"
+          >
             <div className="service_image">
               <div className="services_glass">
                 <div className="service_xml"></div>
@@ -39,14 +43,18 @@ const Service = () => {
               <h1>Web Development</h1>
               <p>
                 I am confident i know the right , modern web technologies needed
-                for your site’s optimization
+                to make your dream a reality
               </p>
             </div>
           </div>
-          <div className="service_card hidden">
+          <div
+            className="service_card"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
             <div className="service_image">
               <div className="services_glass">
-                <div className="service_xml"></div>
+                <div className="service_xml1"></div>
                 <div className="service_flash1">
                   <StaticImage
                     src="../images/flash.png"
@@ -72,17 +80,21 @@ const Service = () => {
               </div>
             </div>
             <div className="service_text">
-              <h1>Web Development</h1>
+              <h1>Responsive Design</h1>
               <p>
-                I am confident i know the right , modern web technologies needed
-                for your site’s optimization
+                I build websites that work across multiple devices without
+                sacrificing performance
               </p>
             </div>
           </div>
-          <div className="service_card hidden">
+          <div
+            className="service_card"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
             <div className="service_image">
               <div className="services_glass">
-                <div className="service_xml"></div>
+                <div className="service_xml2"></div>
                 <div className="service_flash1">
                   <StaticImage
                     src="../images/flash.png"
@@ -108,10 +120,10 @@ const Service = () => {
               </div>
             </div>
             <div className="service_text">
-              <h1>Web Development</h1>
+              <h1>Beautiful Animations</h1>
               <p>
-                I am confident i know the right , modern web technologies needed
-                for your site’s optimization
+                Let me bring your websites to life with production ready
+                animations
               </p>
             </div>
           </div>
