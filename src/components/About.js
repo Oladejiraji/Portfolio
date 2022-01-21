@@ -1,7 +1,20 @@
 import React from "react";
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
 import { StaticImage } from "gatsby-plugin-image";
 
 const About = () => {
+  gsap.registerPlugin(ScrollToPlugin);
+  const goToSection = () => {
+    console.log(gsap);
+    const header = document.querySelector(".header");
+    const headerHeight = header.offsetHeight;
+    gsap.to(window, 1.5, {
+      scrollTo: { y: ".contact", offsetY: headerHeight - 200 },
+      ease: "circ.out",
+    });
+    gsap.to(window, 1.5, {});
+  };
   return (
     <div className="about">
       <div className="container">
@@ -38,7 +51,9 @@ const About = () => {
               believe great product design comes from focusing on the right
               questions, not the right answers.
             </p>
-            <button className="primary_btn">Learn More</button>
+            <button className="primary_btn" onClick={goToSection}>
+              Contact Us
+            </button>
           </div>
         </div>
       </div>

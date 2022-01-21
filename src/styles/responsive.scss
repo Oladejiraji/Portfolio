@@ -84,8 +84,9 @@
     padding: 20px 0;
   }
 
-  .about .about_flex .about_image {
-    width: 400px;
+  .about .about_flex .about_image .about_img {
+    width: 300px;
+    height: 300px;
   }
 
   .showcase .showcase_flex .showcase_text {
@@ -113,6 +114,11 @@
   .project .head_und::after,
   .contact .head_und::after {
     transform: translateX(-60%);
+  }
+
+  .about .about_flex .about_image .about_img {
+    width: 250px;
+    height: 250px;
   }
 
   .project .project_container .sample .sample_text .sample_btns .primary_btn {
