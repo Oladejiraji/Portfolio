@@ -40,10 +40,10 @@ const Service = () => {
               </div>
             </div>
             <div className="service_text">
-              <h1>Web Development</h1>
+              <h1>Frontend Development</h1>
               <p>
-                I am confident i know the right , modern web technologies needed
-                to make your dream a reality
+                Engaging, Intuitive User Experiences. Crafting visually
+                captivating interfaces for seamless navigation.
               </p>
             </div>
           </div>
@@ -80,10 +80,10 @@ const Service = () => {
               </div>
             </div>
             <div className="service_text">
-              <h1>Responsive Design</h1>
+              <h1>Backend Development</h1>
               <p>
-                I build websites that work across multiple devices without
-                sacrificing performance
+                Fueling Digital Performance. Powering robust systems for
+                seamless functionality.
               </p>
             </div>
           </div>
@@ -120,10 +120,11 @@ const Service = () => {
               </div>
             </div>
             <div className="service_text">
-              <h1>Beautiful Animations</h1>
+              <h1>Mobile Development</h1>
               <p>
-                Let me bring your websites to life with production ready
-                animations
+                I specialize in creating dynamic, user-friendly mobile
+                experiences. From apps to responsive interfaces, we're dedicated
+                to shaping your mobile success.
               </p>
             </div>
           </div>

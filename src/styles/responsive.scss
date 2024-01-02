@@ -68,6 +68,9 @@
 }
 
 @media (max-width: 650px) {
+  .project .project_container .sample .sample_text p {
+    font-size: 1.1rem;
+  }
   .project .project_container .sample .sample_image {
     width: 400px;
   }

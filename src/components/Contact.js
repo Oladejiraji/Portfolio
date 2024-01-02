@@ -13,32 +13,46 @@ const Contact = () => {
           <div className="form-square" data-ani="4"></div>
           <div className="form-container">
             <div className="form">
-              <form>
+              <form
+                action="https://formsubmit.co/rajioladeji2@gmail.com"
+                method="POST"
+              >
                 <div className="control-flex">
                   <div className="control">
-                    <input type="text" placeholder="Enter Full Name..." />
+                    <input
+                      type="text"
+                      placeholder="Enter Full Name..."
+                      name="name"
+                      required
+                    />
                   </div>
                   <div className="control">
-                    <input type="text" placeholder="Enter Phone No..." />
-                  </div>
-                </div>
-                <div className="control-flex">
-                  <div className="control">
-                    <input type="text" placeholder="Enter Email..." />
-                  </div>
-                  <div className="control">
-                    <input type="text" placeholder="Enter Topic..." />
+                    <input
+                      type="text"
+                      placeholder="Enter Phone No..."
+                      name="phone"
+                      required
+                    />
                   </div>
                 </div>
                 <div className="control">
+                  <input
+                    type="text"
+                    placeholder="Enter Email..."
+                    name="email"
+                    required
+                  />
+                </div>
+                <div className="control">
                   <textarea
+                    required
                     name="message"
                     id=""
                     placeholder="Enter Mesage Here..."
                   ></textarea>
                 </div>
                 <div className="control">
-                  <button>Send Message</button>
+                  <button type="submit">Connect with us</button>
                 </div>
               </form>
             </div>

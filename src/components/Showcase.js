@@ -29,8 +29,13 @@ const Showcase = () => {
               Hey! I'm <span>Oladeji</span>
             </h1>
             <p>
-              I am a software engineer and I build websites, web applications
-              and mobile applications!
+              As a forward-thinking Software Engineer, I excel in dynamic
+              environments, skillfully navigating across frontend, backend, and
+              mobile platforms with a mastery of JavaScript. My proficiency
+              extends across diverse industries, where I craft innovative
+              software solutions. I take pride in my role as a dedicated team
+              player, committed to swiftly and precisely achieving project
+              objectives while ensuring optimal results.
             </p>
             <button className="primary_btn" onClick={goToSection}>
               Learn More

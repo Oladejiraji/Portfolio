@@ -38,21 +38,27 @@ const About = () => {
             data-aos-delay="400"
           >
             <p>
-              I am Raji Oladeji, A web designer from Nigeria. I’ve got the right
-              skills and technologies to take your online presence on the level
-              it truly deserves. I design and develop beautiful websites which
-              focus on providing the best experience for everyone using them,
-              ensuring they are easy for your team to edit while also delivering
-              the best experience for your users.
+              With a background as a founding developer for multiple startups
+              and a portfolio boasting several apps live on both the App Store
+              and Google Play Store, alongside web applications currently in
+              production, I've consistently delivered tangible results.
+              Adaptability is key to my engineering approach—I thrive on
+              tackling abrupt challenges with a steadfast commitment to success.
+              I'm excited to apply my expertise to drive meaningful outcomes in
+              new, challenging environments, leveraging my track record for
+              impactful results.
             </p>
             <p>
-              I believe your website should be your no1 sales agent and its
-              works 24/7, Get a quote now that’s best for your business. I
-              believe great product design comes from focusing on the right
-              questions, not the right answers.
+              I am deeply eager to leverage the depth of my expertise and the
+              breadth of my experiences to spearhead transformative outcomes in
+              new and dynamic environments. My professional journey has equipped
+              me with a wealth of skills and a mindset primed for tackling fresh
+              challenges. I am enthusiastic about the prospect of applying these
+              strengths to drive impactful and meaningful change in endeavors
+              that demand innovation and excellence.
             </p>
             <button className="primary_btn" onClick={goToSection}>
-              Contact Us
+              Let's Connect
             </button>
           </div>
         </div>

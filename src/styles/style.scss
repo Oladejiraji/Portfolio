@@ -83,19 +83,19 @@ main {
     .showcase_text {
       flex: 5;
       h1 {
-        margin-bottom: 1rem;
         font-size: 2rem;
         font-size: 64px;
         font-size: 900;
-        margin-bottom: 72px;
+        margin-bottom: 32px;
         span {
           color: var(--text_color);
         }
       }
       p {
-        font-size: 35px;
+        font-size: 16px;
         font-weight: 500;
-        margin-bottom: 92px;
+        margin-bottom: 52px;
+        line-height: 1.4rem;
       }
       button {
         cursor: pointer;
@@ -174,7 +174,7 @@ main {
     .about_content {
       flex: 1;
       color: var(--text_color);
-      margin-top: 12rem;
+      margin-top: 5rem;
       margin-left: 5rem;
       p {
         margin-bottom: 2rem;
@@ -227,7 +227,7 @@ main {
           .service_xml1 {
             width: 100px;
             height: 100px;
-            background-image: url("../svg/device.svg");
+            background-image: url("../svg/server.svg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -235,7 +235,7 @@ main {
           .service_xml2 {
             width: 100px;
             height: 100px;
-            background-image: url("../svg/film.svg");
+            background-image: url("../svg/device.svg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -366,6 +366,10 @@ main {
           margin-bottom: 1rem;
           line-height: 1.6rem;
         }
+        .sample_btns_con {
+          display: flex;
+          gap: 1rem;
+        }
         .sample_btns {
           .secondary_btn {
             a {
@@ -423,8 +427,7 @@ main {
           display: flex;
           margin-bottom: 1rem;
         }
-        .control:nth-child(1),
-        .control:nth-child(3) {
+        .control:nth-child(1) {
           margin-right: 2rem;
         }
         .control {
