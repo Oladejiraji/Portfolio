@@ -25,11 +25,6 @@ const About = () => {
             data-aos="fade-right"
             data-aos-delay="400"
           >
-            {/* <StaticImage
-              src="../images/about.png"
-              placeholder="blurred"
-              alt="hero"
-            /> */}
             <div className="about_img"></div>
           </div>
           <div
