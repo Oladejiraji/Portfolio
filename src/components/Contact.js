@@ -52,7 +52,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="control">
-                  <button type="submit">Connect with us</button>
+                  <button type="submit">Connect with me</button>
                 </div>
               </form>
             </div>
